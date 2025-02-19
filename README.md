@@ -5,7 +5,7 @@ Uses a React Javascript framework along with Python and known web languages (HTM
 
 # Chrome Extension with React
 
-This is a Chrome Extension built with React.
+This is an AI Email Chrome Extension built with React.
 
 ## Development
 1. Run `npm install` to install dependencies

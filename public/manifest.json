@@ -1,13 +1,24 @@
 {
   "manifest_version": 3,
-  "name": "React Chrome Extension",
+  "name": "GotMail Assistant",
   "version": "0.1.0",
-  "description": "A Chrome Extension built with React",
+  "description": "AI Email Assistant and Notifier for Chrome Browser users",
   "action": {
     "default_popup": "popup.html"
   },
   "permissions": [
     "activeTab",
-    "scripting"
-  ]
+    "scripting",
+    "storage",
+    "notifications",
+    "identity",
+    "identity.email"
+  ],
+  "host_permissions": [
+    "https://mail.google.com/*",
+    "https://gmail.googleapis.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
 } 
