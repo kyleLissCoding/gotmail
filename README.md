@@ -1,3 +1,5 @@
+# ⚠️ Holding off on this project due to the nature of competitors but still here in case I ever want to come back to it 
+
 # GOTMAIL ✉️
 An AI Google Chrome extension that allows users to have comfort in ensuring Email communications are read and in a easy manner.
 
@@ -14,3 +16,5 @@ This is an AI Email Chrome Extension built with React.
 
 ## Building
 Run `npm run build` to create a production build
+
+
